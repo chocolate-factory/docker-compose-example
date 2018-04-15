@@ -1,2 +1,2 @@
-# docker-compoes-example
+# docker-compose-example
 example for docker compose
