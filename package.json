@@ -1,0 +1,11 @@
+{
+  "name": "view-counting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "heechan",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
