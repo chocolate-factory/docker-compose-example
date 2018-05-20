@@ -6,7 +6,6 @@ console.log('start to connect redis: ' + redisUrl);
 var client = redis.createClient({
     url: redisUrl
 });
-console.log('redis was connected');
 http.createServer(function (req, res) {
     res.writeHead(200, { "Content-Type": "application/json" });
     client.incr(req.url, function (error, value) {
